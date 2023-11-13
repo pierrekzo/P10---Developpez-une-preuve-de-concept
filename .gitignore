@@ -1,0 +1,22 @@
+# Exclure le dossier env/Lib/
+env/Lib/
+
+# Exclure le fichier vgg16_model.h5
+vgg16_model.h5
+
+# Exclure le fichier fichier2.ext (remplacez "fichier2.ext" par le nom réel du fichier)
+fichier2.ext
+
+# Exclure le dossier env/ (si ce dossier entier doit être ignoré)
+env/
+
+# Exclure les fichiers spécifiques dans Lib/site-packages/
+Lib/site-packages/clang/native/libclang.dll
+Lib/site-packages/cv2/cv2.pyd
+Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.lib
+
+# Exclure le dossier EfficientNet_saved_model/variables/
+EfficientNet_saved_model/variables/variables.data-00000-of-00001
+
+# Exclure le fichier Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
