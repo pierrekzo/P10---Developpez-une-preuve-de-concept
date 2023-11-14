@@ -17,7 +17,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 mapping_file_path = os.path.join(script_dir, 'LOC_synset_mapping.txt')
 
 # Chemin vers les images à afficher
-images_folder_path = os.path.join(script_dir, 'img\\Display')
+images_folder_path = os.path.join(script_dir, 'img/Display')
 
 # Affichage des 10 premières classes du dataset
 with open(mapping_file_path, 'r') as mapping_file:
